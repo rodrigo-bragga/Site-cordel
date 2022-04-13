@@ -41,7 +41,7 @@ a:hover{
 
 /*Main*/
 .imagemFundo1{
-    background-image: url(imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-position: center right;
     background-repeat: none;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ a:hover{
 }
 
 .imagemFundo2{
-    background-image: url(imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: center right;
     background-repeat: none;
     background-attachment: fixed;
