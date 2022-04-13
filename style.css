@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/*Header*/
 header{
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ header{
     align-items: center;
     background-color: black;    
     height: 20vw;    
-    min-height: 10rem;
+    min-height: 11rem;
 }
 header h1{
     color: white;
@@ -37,5 +37,67 @@ header a{
 a:hover{
     text-decoration: underline;
 }
+/*Fim Header*/
 
+/*Main*/
+.imagemFundo1{
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
+.imagemFundo2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main p{
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding: 2px;
+}
+
+.estrofeFundoBranco{
+    padding: 30px;
+    background-color: white;
+    padding: 70px 30px;
+}
+
+.estrofeFundoImagem{    
+    padding: 65px 30px;
+}
+
+ .fundoTransparente{
+    width: 42vw;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    padding: 5px;
+}
+/*Fim Main*/
+
+/*Footer*/
+footer{
+    max-height: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+/*Fim Footer*/
