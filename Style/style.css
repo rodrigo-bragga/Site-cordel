@@ -74,11 +74,11 @@ main p{
     padding: 65px 30px;
 }
 
- .fundoTransparente{
-    width: 43vw;
+.fundoTransparente{
     background-color: rgba(0, 0, 0, 0.589);
     color: white;
-    padding: 5px;
+    padding: 10px;    
+    display: inline-block;
 }
 /*Fim Main*/
 
